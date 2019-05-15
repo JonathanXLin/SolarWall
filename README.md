@@ -29,6 +29,16 @@ An overview of the most recent prototype (shown above) is shown below. A 24V DC 
   <img src="https://i.imgur.com/c262yM2.png" width="600">
 </p>
 
+The controller PCB (being fabricated at time of writing) schematic and visualization is shown below.
+
+<p align="center"> 
+  <img src="https://i.imgur.com/mV8I3EL.png" width="600">
+</p>
+
+<p align="center"> 
+  <img src="https://i.imgur.com/kpKGa7W.png" width="600">
+</p>
+
 A cell charger/discharger was also built using a TP4056 Li-ion charger/discharger and 4 ohm power resistor. 
 
 <p align="center"> 
