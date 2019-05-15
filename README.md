@@ -36,7 +36,7 @@ The controller PCB (being fabricated at time of writing) schematic and visualiza
 </p>
 
 <p align="center"> 
-  <img src="https://i.imgur.com/kpKGa7W.png" width="600">
+  <img src="https://i.imgur.com/kpKGa7W.png?1" width="600">
 </p>
 
 A cell charger/discharger was also built using a TP4056 Li-ion charger/discharger and 4 ohm power resistor. 
