@@ -2,7 +2,7 @@
 SolarWall is a 650 Wh Li-ion IoT battery pack powered by a 150W solar panel. This project is currently in the prototyping stage.
 
 <p align="center"> 
-  <img src="https://i.imgur.com/QlMwQAM.jpg?1" width="1200">
+  <img src="https://i.imgur.com/QlMwQAM.jpg?1" width="800">
 </p>
 
 ## Overview
@@ -10,7 +10,7 @@ SolarWall is a 650 Wh Li-ion IoT battery pack powered by a 150W solar panel. Thi
 A high level overview of the planned final design is shown below.
 
 <p align="center"> 
-  <img src="https://i.imgur.com/wTpWAlf.png" width="1200">
+  <img src="https://i.imgur.com/wTpWAlf.png" width="800">
 </p>
 
 A single 150W 30V solar panel is connected to an adjustable buck converter, which provides the required 21V for the BMS. A high power mosfet acts as a master switch, and current is monitored by a 50A 75mV shunt. 
@@ -32,7 +32,7 @@ An overview of the most recent prototype (shown above) is shown below. A 24V DC 
 A cell charger/discharger was also built using a TP4056 Li-ion charger/discharger and 4 ohm power resistor. 
 
 <p align="center"> 
-  <img src="https://i.imgur.com/CKhYoin.jpg?1" width="600">
+  <img src="https://i.imgur.com/CKhYoin.jpg?1" width="400">
 </p>
 
 ## Development Photos
@@ -40,22 +40,22 @@ A cell charger/discharger was also built using a TP4056 Li-ion charger/discharge
 Salvaging 18650 cells from old laptop batteries.
 
 <p align="center"> 
-  <img src="https://i.imgur.com/sjUPqaz.jpg" width="600">
+  <img src="https://i.imgur.com/sjUPqaz.jpg" width="200">
 </p>
 
 Testing solar panel output voltage and current.
 
 <p align="center"> 
-  <img src="https://i.imgur.com/ilDZ7Tw.jpg" width="600">
+  <img src="https://i.imgur.com/ilDZ7Tw.jpg" width="400">
 </p>
 
 Constructing Prototype
 
 <p align="center"> 
-  <img src="https://i.imgur.com/SMs5KAW.jpg" width="600">
+  <img src="https://i.imgur.com/SMs5KAW.jpg" width="400">
 </p>
 
 <p align="center"> 
-  <img src="https://i.imgur.com/bCNrP9H.jpg" width="600">
+  <img src="https://i.imgur.com/bCNrP9H.jpg" width="400">
 </p>
 
