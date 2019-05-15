@@ -26,5 +26,5 @@ Panel voltage, charge current, and cell group voltages are displayed through a w
 An overview of the most recent prototype (shown above) is shown below. 
 
 <p align="center"> 
-  <img src="https://i.imgur.com/c262yM2.png" width="800">
+  <img src="https://i.imgur.com/c262yM2.png" width="600">
 </p>
