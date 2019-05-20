@@ -32,7 +32,7 @@ An overview of the most recent prototype (shown above) is shown below. A 24V DC 
 The controller PCB (being fabricated at time of writing) schematic and visualization is shown below.
 
 <p align="center"> 
-  <img src="https://i.imgur.com/mV8I3EL.png" width="600">
+  <img src="https://i.imgur.com/mV8I3EL.png" width="800
 </p>
 
 <p align="center"> 
