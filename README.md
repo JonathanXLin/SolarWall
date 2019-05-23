@@ -2,10 +2,7 @@
 SolarWall is a 650 Wh Li-ion IoT battery pack powered by a 150W solar panel. This project is currently in the prototyping stage.
 
 <p align="center"> 
-  <img src="https://i.imgur.com/PXdm7sF.jpg" width="300">
-</p>
-<p align="center"> 
-  <img src="https://i.imgur.com/TzPAlm2.jpg?1" width="300">
+  <img src="https://i.imgur.com/XqIu4pA.png" width="600">
 </p>
 
 ## Overview
