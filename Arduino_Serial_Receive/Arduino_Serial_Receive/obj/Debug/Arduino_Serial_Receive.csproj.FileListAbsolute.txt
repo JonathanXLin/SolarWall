@@ -8,3 +8,13 @@ C:\Users\ADMReliance\source\repos\Arduino_Serial_Receive\Arduino_Serial_Receive\
 C:\Users\ADMReliance\source\repos\Arduino_Serial_Receive\Arduino_Serial_Receive\obj\Debug\Arduino_Serial_Receive.exe
 C:\Users\ADMReliance\source\repos\Arduino_Serial_Receive\Arduino_Serial_Receive\obj\Debug\Arduino_Serial_Receive.pdb
 C:\Users\ADMReliance\source\repos\Arduino_Serial_Receive\Arduino_Serial_Receive\obj\Debug\Arduino_Serial_Receive.Main.resources
+C:\Users\Jonathan\Documents\GitHub\SolarWall\Arduino_Serial_Receive\Arduino_Serial_Receive\bin\Debug\Arduino_Serial_Receive.exe.config
+C:\Users\Jonathan\Documents\GitHub\SolarWall\Arduino_Serial_Receive\Arduino_Serial_Receive\bin\Debug\Arduino_Serial_Receive.exe
+C:\Users\Jonathan\Documents\GitHub\SolarWall\Arduino_Serial_Receive\Arduino_Serial_Receive\bin\Debug\Arduino_Serial_Receive.pdb
+C:\Users\Jonathan\Documents\GitHub\SolarWall\Arduino_Serial_Receive\Arduino_Serial_Receive\obj\Debug\Arduino_Serial_Receive.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\SolarWall\Arduino_Serial_Receive\Arduino_Serial_Receive\obj\Debug\Arduino_Serial_Receive.Main.resources
+C:\Users\Jonathan\Documents\GitHub\SolarWall\Arduino_Serial_Receive\Arduino_Serial_Receive\obj\Debug\Arduino_Serial_Receive.Properties.Resources.resources
+C:\Users\Jonathan\Documents\GitHub\SolarWall\Arduino_Serial_Receive\Arduino_Serial_Receive\obj\Debug\Arduino_Serial_Receive.csproj.GenerateResource.cache
+C:\Users\Jonathan\Documents\GitHub\SolarWall\Arduino_Serial_Receive\Arduino_Serial_Receive\obj\Debug\Arduino_Serial_Receive.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\SolarWall\Arduino_Serial_Receive\Arduino_Serial_Receive\obj\Debug\Arduino_Serial_Receive.exe
+C:\Users\Jonathan\Documents\GitHub\SolarWall\Arduino_Serial_Receive\Arduino_Serial_Receive\obj\Debug\Arduino_Serial_Receive.pdb
