@@ -1,33 +1,48 @@
-#include <avr/io.h>
-#include <avr/interrupt.h>
-
-#define PANEL_SHUTOFF     5
-#define PACK_SHUTOFF      6
-
 void setup() 
 {
-  // Set the Timer Mode to CTC
-  TCCR0A |= (1 << WGM01);
+  pinMode(A0, INPUT);
+  pinMode(A1, INPUT);
+  pinMode(A2, INPUT);
+  pinMode(A3, INPUT);
+  pinMode(A4, INPUT);
+  pinMode(A5, INPUT);
+  pinMode(A6, INPUT);
 
-  // Set the value that you want to count to
-  OCR0A = 0xF9;
-
-  TIMSK0 |= (1 << OCIE0A);    //Set the ISR COMPA vect
-
-  sei();         //enable interrupts
-
-  TCCR0B |= (1 << CS02);
-  // set prescaler to 256 and start the timer
-  
   Serial.begin(9600);
 }
 
+String data = "";
+
 void loop() 
 {
-  //Serial.println("Normal");
-}
+  data += "B1 ";
+  data += analogRead(A1);
+  data += " B2 ";
+  data += analogRead(A2); 
+  data += " B3 ";
+  data += analogRead(A3); 
+  data += " B4 ";
+  data += analogRead(A4); 
+  data += " B5 ";
+  data += analogRead(A5); 
+  
+  Serial.println(data);
 
-ISR (TIMER0_COMPA_vect)  // timer0 overflow interrupt
-{
-  Serial.println("Interrupt");
+  data = "";
+  
+  /*
+  Serial.print("B1: ");
+  Serial.print(analogRead(A1));
+  Serial.print("\t\tB2: ");
+  Serial.print(analogRead(A2));
+  Serial.print("\t\tB3: ");
+  Serial.print(analogRead(A3));
+  Serial.print("\t\tB4: ");
+  Serial.print(analogRead(A4));
+  Serial.print("\t\tB+: ");
+  Serial.print(analogRead(A5));
+  Serial.println();
+  */
+
+  delay(100);
 }
