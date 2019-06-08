@@ -1,0 +1,10 @@
+C:\Users\ADMReliance\source\repos\Arduino_Serial_Receive\Arduino_Serial_Receive\bin\Debug\Arduino_Serial_Receive.exe.config
+C:\Users\ADMReliance\source\repos\Arduino_Serial_Receive\Arduino_Serial_Receive\bin\Debug\Arduino_Serial_Receive.exe
+C:\Users\ADMReliance\source\repos\Arduino_Serial_Receive\Arduino_Serial_Receive\bin\Debug\Arduino_Serial_Receive.pdb
+C:\Users\ADMReliance\source\repos\Arduino_Serial_Receive\Arduino_Serial_Receive\obj\Debug\Arduino_Serial_Receive.csprojAssemblyReference.cache
+C:\Users\ADMReliance\source\repos\Arduino_Serial_Receive\Arduino_Serial_Receive\obj\Debug\Arduino_Serial_Receive.Properties.Resources.resources
+C:\Users\ADMReliance\source\repos\Arduino_Serial_Receive\Arduino_Serial_Receive\obj\Debug\Arduino_Serial_Receive.csproj.GenerateResource.cache
+C:\Users\ADMReliance\source\repos\Arduino_Serial_Receive\Arduino_Serial_Receive\obj\Debug\Arduino_Serial_Receive.csproj.CoreCompileInputs.cache
+C:\Users\ADMReliance\source\repos\Arduino_Serial_Receive\Arduino_Serial_Receive\obj\Debug\Arduino_Serial_Receive.exe
+C:\Users\ADMReliance\source\repos\Arduino_Serial_Receive\Arduino_Serial_Receive\obj\Debug\Arduino_Serial_Receive.pdb
+C:\Users\ADMReliance\source\repos\Arduino_Serial_Receive\Arduino_Serial_Receive\obj\Debug\Arduino_Serial_Receive.Main.resources
