@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arduino_Serial_Receive", "Arduino_Serial_Receive\Arduino_Serial_Receive.csproj", "{19B1F3B3-C84D-4ED3-AAD8-F6AD12667A16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19B1F3B3-C84D-4ED3-AAD8-F6AD12667A16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19B1F3B3-C84D-4ED3-AAD8-F6AD12667A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19B1F3B3-C84D-4ED3-AAD8-F6AD12667A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19B1F3B3-C84D-4ED3-AAD8-F6AD12667A16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B8C1C3A-7BA0-43F4-B353-8E684C84B6D6}
+	EndGlobalSection
+EndGlobal

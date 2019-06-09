@@ -1,0 +1,10 @@
+C:\Users\Jonathan\Documents\GitHub\SolarWall\Arduino_Serial_Receive\Arduino_Serial_Receive\bin\Release\Arduino_Serial_Receive.exe.config
+C:\Users\Jonathan\Documents\GitHub\SolarWall\Arduino_Serial_Receive\Arduino_Serial_Receive\bin\Release\Arduino_Serial_Receive.exe
+C:\Users\Jonathan\Documents\GitHub\SolarWall\Arduino_Serial_Receive\Arduino_Serial_Receive\bin\Release\Arduino_Serial_Receive.pdb
+C:\Users\Jonathan\Documents\GitHub\SolarWall\Arduino_Serial_Receive\Arduino_Serial_Receive\obj\Release\Arduino_Serial_Receive.Main.resources
+C:\Users\Jonathan\Documents\GitHub\SolarWall\Arduino_Serial_Receive\Arduino_Serial_Receive\obj\Release\Arduino_Serial_Receive.Properties.Resources.resources
+C:\Users\Jonathan\Documents\GitHub\SolarWall\Arduino_Serial_Receive\Arduino_Serial_Receive\obj\Release\Arduino_Serial_Receive.csproj.GenerateResource.cache
+C:\Users\Jonathan\Documents\GitHub\SolarWall\Arduino_Serial_Receive\Arduino_Serial_Receive\obj\Release\Arduino_Serial_Receive.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\SolarWall\Arduino_Serial_Receive\Arduino_Serial_Receive\obj\Release\Arduino_Serial_Receive.exe
+C:\Users\Jonathan\Documents\GitHub\SolarWall\Arduino_Serial_Receive\Arduino_Serial_Receive\obj\Release\Arduino_Serial_Receive.pdb
+C:\Users\Jonathan\Documents\GitHub\SolarWall\Arduino_Serial_Receive\Arduino_Serial_Receive\obj\Release\Arduino_Serial_Receive.csprojAssemblyReference.cache
