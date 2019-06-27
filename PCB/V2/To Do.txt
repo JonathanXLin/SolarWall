@@ -1,0 +1,6 @@
+Add shunt circuit
+Add polarity protection with p-mos
+add discharge detector
+add indicator LEDs
+add test points
+replace mosfets with two coil latching relays

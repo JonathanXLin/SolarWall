@@ -130,7 +130,7 @@ namespace Arduino_Serial_Receive
             StreamWriter stream = File.AppendText(Globals.saveFileDialog.FileName);
 
             var str = stopwatch.Elapsed.ToString("c");
-            stream.Write(str.Substring(0, str.Length - 4) + "\t\t\t" + value.ToString());
+            stream.WriteLine(str.Substring(0, str.Length - 4) + "\t\t\t" + value.ToString());
 
             stream.Close();
             stream.Dispose();
