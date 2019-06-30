@@ -1,6 +1,7 @@
-Add shunt circuit
-Add polarity protection with p-mos
-add discharge detector
 add indicator LEDs
-add test points
-replace mosfets with two coil latching relays
+Add thermistor circuits with multiplexer
+Vdd Vbat tie together? connected to?
+4 digit 7 seg LED display
+buck power dissipation?
+Use level shifters
+Add arduino capability that bypasses level shifters
