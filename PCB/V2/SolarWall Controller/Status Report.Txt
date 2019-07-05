@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 7:39:26 PM On 2019-05-14
+
+Output: Board Information
+Type  : Board Information
+From  : PCB Document [PCB.CMPcbDoc]
+   Generated File[PCB.html]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 7:39:26 PM On 2019-05-14

@@ -1,0 +1,19 @@
+4 digit 7 seg LED display
+buck power dissipation?
+
+CONTINUE SIG CONDITIONING SCALED VOLTAGE OUTPUTS
+
+ESTOP feature to open all mosfets
+
+
+
+Female multi connectors
+2 male jumpers
+change one LED
+2 15 pos female for arduino
+Make sure mosfet
+Change test point colours
+Ensure correct gain on current IC
+Buy extra LED resistors, different values
+TO220 flat heatsink
+Get photodiode, 86k thermistor, 

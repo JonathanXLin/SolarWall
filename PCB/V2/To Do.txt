@@ -1,7 +1,0 @@
-add indicator LEDs
-Add thermistor circuits with multiplexer
-Vdd Vbat tie together? connected to?
-4 digit 7 seg LED display
-buck power dissipation?
-Use level shifters
-Add arduino capability that bypasses level shifters
