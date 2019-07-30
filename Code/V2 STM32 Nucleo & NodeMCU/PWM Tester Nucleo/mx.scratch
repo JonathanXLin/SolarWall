@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+    <FileVersion>2.0</FileVersion> 
+
+    <ProjectPath>C:\Users\Jonathan\Documents\GitHub\SolarWall\Code\V2 STM32 Nucleo & NodeMCU\PWM Tester Nucleo\</ProjectPath> 
+
+    <ProjectName>PWM Tester Nucleo</ProjectName>     <ProjectNature>C</ProjectNature> 
+
+    <HAL_Driver>C:\Users\Jonathan\STM32Cube\Repository\STM32Cube_FW_F4_V1.24.1\</HAL_Driver>
+    <CMSIS>..\Drivers\CMSIS</CMSIS> 
+    <Toolchain>MDK-ARM</Toolchain>
+    <Toolversion>5</Toolversion>
+    <Version>0</Version>
+
+    <configs>
+<config>
+    <name>PWM Tester Nucleo</name>	 
+    <device>STM32F401RETx</device>		 
+    <cpucore></cpucore>
+    <fpu>SP</fpu>  
+    <memories>   
+        <memory name="RAM" access="xrw" start="0x20000000" size="96" />
+        <memory name="FLASH" access="rx" start="0x8000000" size="512" />
+        </memories>
+    <startup>C:\Users\Jonathan\STM32Cube\Repository\STM32Cube_FW_F4_V1.24.1\..\Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\gcc\startup_stm32f401xe.s</startup>      
+
+    <heapSize>0x200</heapSize>
+    <stackSize>0x400</stackSize>
+
+    <cpuclock>84</cpuclock>
+    <board>NUCLEO-F401RE</board>
+
+    <debugprobe>swd</debugprobe>
+    <optimization></optimization>
+    <icfloc></icfloc>
+
+    <Aincludes>
+        <include></include>
+
+        </Aincludes>
+    <Adefines>
+        </Adefines>  
+    <Cdefines>
+        <define>USE_HAL_DRIVER</define>
+        <define>STM32F401xE</define>
+        <define>USE_HAL_DRIVER</define>
+        <define>STM32F401xE</define>
+        </Cdefines>
+    <Ldefines>
+        </Ldefines>
+    <definestoremove>
+        <Adefines>
+            </Adefines>
+        <Cdefines>
+            <define>USE_FULL_LL_DRIVER</define>
+            <define>MBEDTLS_CONFIG_FILE=&lt;mbedtls_config.h&gt;</define>
+            <define>USE_FULL_ASSERT=1U</define>
+            </Cdefines> 
+        <Ldefines>
+            </Ldefines> 
+        </definestoremove>
+
+    <inctoremove>
+        <Aincludes>
+            <include></include>
+            </Aincludes>
+        <Cincludes>
+            </Cincludes>
+        </inctoremove>
+    <filestoremove>
+        <file>
+            <name>..\Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f401xe.s</name>
+            </file>
+        </filestoremove>
+    <Cincludes>
+        <include>..\Inc</include>
+        <include>..\Drivers\STM32F4xx_HAL_Driver\Inc</include>
+        <include>..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy</include>
+        <include>..\Drivers\CMSIS\Device\ST\STM32F4xx\Include</include>
+        <include>..\Drivers\CMSIS\Include</include>
+
+        </Cincludes>
+    </config>
+        </configs> 
+
+    <underRoot>false</underRoot>
+     <group>
+        <name>Drivers</name> 
+        <group>
+            <name>STM32F4xx_HAL_Driver</name>
+            <file>
+                <name>../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c</name>
+
+                </file>
+            <file>
+                <name>../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c</name>
+
+                </file>
+            <file>
+                <name>../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c</name>
+
+                </file>
+            <file>
+                <name>../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c</name>
+
+                </file>
+            <file>
+                <name>../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c</name>
+
+                </file>
+            <file>
+                <name>../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c</name>
+
+                </file>
+            <file>
+                <name>../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c</name>
+
+                </file>
+            <file>
+                <name>../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c</name>
+
+                </file>
+            <file>
+                <name>../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c</name>
+
+                </file>
+            <file>
+                <name>../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c</name>
+
+                </file>
+            <file>
+                <name>../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c</name>
+
+                </file>
+            <file>
+                <name>../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c</name>
+
+                </file>
+            <file>
+                <name>../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c</name>
+
+                </file>
+            <file>
+                <name>../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c</name>
+
+                </file>
+            <file>
+                <name>../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c</name>
+
+                </file>
+            <file>
+                <name>../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c</name>
+
+                </file>
+            <file>
+                <name>../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c</name>
+
+                </file>
+            <file>
+                <name>../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c</name>
+
+                </file>
+            </group>
+        <group>
+            <name>CMSIS</name>
+            <file>
+                <name>../Src/system_stm32f4xx.c</name>
+                </file>
+            </group>
+        </group>   
+    <group>
+        <name>Application</name>
+        <group>
+            <name>User</name>
+     
+                <file>
+                    <name>..\Src\main.c</name>
+                    </file>
+                <file>
+                    <name>..\Src\stm32f4xx_it.c</name>
+                    </file>
+                <file>
+                    <name>..\Src\stm32f4xx_hal_msp.c</name>
+                    </file>
+
+            </group> 
+        </group>
+
+    </Project>
+

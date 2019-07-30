@@ -1,7 +1,7 @@
 [PreviousGenFiles]
-HeaderPath=C:/Users/Jonathan/Desktop/PWM Tester Nucleo/PWM Tester Nucleo/Inc
+HeaderPath=C:/Users/Jonathan/Documents/GitHub/SolarWall/Code/V2 STM32 Nucleo & NodeMCU/PWM Tester Nucleo/Inc
 HeaderFiles=stm32f4xx_it.h;stm32f4xx_hal_conf.h;main.h;
-SourcePath=C:/Users/Jonathan/Desktop/PWM Tester Nucleo/PWM Tester Nucleo/Src
+SourcePath=C:/Users/Jonathan/Documents/GitHub/SolarWall/Code/V2 STM32 Nucleo & NodeMCU/PWM Tester Nucleo/Src
 SourceFiles=stm32f4xx_it.c;stm32f4xx_hal_msp.c;main.c;
 
 [PreviousLibFiles]

@@ -1,0 +1,27 @@
+--cpu=Cortex-M4.fp
+"7_segment_display_tester\startup_stm32f401xe.o"
+"7_segment_display_tester\main.o"
+"7_segment_display_tester\stm32f4xx_it.o"
+"7_segment_display_tester\stm32f4xx_hal_msp.o"
+"7_segment_display_tester\led_display.o"
+"7_segment_display_tester\stm32f4xx_hal_tim.o"
+"7_segment_display_tester\stm32f4xx_hal_tim_ex.o"
+"7_segment_display_tester\stm32f4xx_hal_uart.o"
+"7_segment_display_tester\stm32f4xx_hal_rcc.o"
+"7_segment_display_tester\stm32f4xx_hal_rcc_ex.o"
+"7_segment_display_tester\stm32f4xx_hal_flash.o"
+"7_segment_display_tester\stm32f4xx_hal_flash_ex.o"
+"7_segment_display_tester\stm32f4xx_hal_flash_ramfunc.o"
+"7_segment_display_tester\stm32f4xx_hal_gpio.o"
+"7_segment_display_tester\stm32f4xx_hal_dma_ex.o"
+"7_segment_display_tester\stm32f4xx_hal_dma.o"
+"7_segment_display_tester\stm32f4xx_hal_pwr.o"
+"7_segment_display_tester\stm32f4xx_hal_pwr_ex.o"
+"7_segment_display_tester\stm32f4xx_hal_cortex.o"
+"7_segment_display_tester\stm32f4xx_hal.o"
+"7_segment_display_tester\stm32f4xx_hal_exti.o"
+"7_segment_display_tester\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "7_Segment_Display_Tester\7_Segment_Display_Tester.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "7_Segment_Display_Tester.map" -o 7_Segment_Display_Tester\7_Segment_Display_Tester.axf
