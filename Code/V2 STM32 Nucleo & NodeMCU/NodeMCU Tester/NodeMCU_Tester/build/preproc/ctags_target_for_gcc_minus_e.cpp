@@ -2,7 +2,7 @@
 # 1 "c:\\Users\\Jonathan\\Documents\\GitHub\\SolarWall\\Code\\V2 STM32 Nucleo & NodeMCU\\NodeMCU Tester\\NodeMCU_Tester\\NodeMCU_Tester.ino"
 /*********
 
-  Rui Santos
+  Adapted from Rui Santos
 
   Complete project details at http://randomnerdtutorials.com  
 
@@ -21,13 +21,13 @@ WiFiServer server(80);
 // Variable to store the HTTP request
 String header;
 
-// Auxiliar variables to store the current output state
-String output5State = "off";
-String output4State = "off";
+// Auxiliary variables to store the current output state
+String pack_enable_state = "off";
+String panel_enable_state = "off";
 
 // Assign output variables to GPIO pins
-const int output5 = 5;
-const int output4 = 4;
+const int pack_enable_pin = 5;
+const int panel_enable_pin = 4;
 
 // Current time
 unsigned long currentTime = millis();
@@ -39,11 +39,12 @@ const long timeoutTime = 2000;
 void setup() {
   Serial.begin(115200);
   // Initialize the output variables as outputs
-  pinMode(output5, 0x01);
-  pinMode(output4, 0x01);
+  pinMode(pack_enable_pin, 0x01);
+  pinMode(panel_enable_pin, 0x01);
+
   // Set outputs to LOW
-  digitalWrite(output5, 0x0);
-  digitalWrite(output4, 0x0);
+  digitalWrite(pack_enable_pin, 0x0);
+  digitalWrite(panel_enable_pin, 0x0);
 
   // Connect to Wi-Fi network with SSID and password
   Serial.print("Connecting to ");
@@ -89,20 +90,20 @@ void loop(){
             // turns the GPIOs on and off
             if (header.indexOf("GET /5/on") >= 0) {
               Serial.println("GPIO 5 on");
-              output5State = "on";
-              digitalWrite(output5, 0x1);
+              pack_enable_state = "on";
+              digitalWrite(pack_enable_pin, 0x1);
             } else if (header.indexOf("GET /5/off") >= 0) {
               Serial.println("GPIO 5 off");
-              output5State = "off";
-              digitalWrite(output5, 0x0);
+              pack_enable_state = "off";
+              digitalWrite(pack_enable_pin, 0x0);
             } else if (header.indexOf("GET /4/on") >= 0) {
               Serial.println("GPIO 4 on");
-              output4State = "on";
-              digitalWrite(output4, 0x1);
+              panel_enable_state = "on";
+              digitalWrite(panel_enable_pin, 0x1);
             } else if (header.indexOf("GET /4/off") >= 0) {
               Serial.println("GPIO 4 off");
-              output4State = "off";
-              digitalWrite(output4, 0x0);
+              panel_enable_state = "off";
+              digitalWrite(panel_enable_pin, 0x0);
             }
 
             // Display the HTML web page
@@ -117,21 +118,21 @@ void loop(){
             client.println(".button2 {background-color: #77878A;}</style></head>");
 
             // Web Page Heading
-            client.println("<body><h1>ESP8266 Web Server</h1>");
+            client.println("<body><h1>SolarWall P2</h1>");
 
-            // Display current state, and ON/OFF buttons for GPIO 5  
-            client.println("<p>GPIO 5 - State " + output5State + "</p>");
-            // If the output5State is off, it displays the ON button       
-            if (output5State=="off") {
+            // Display current state, and ON/OFF buttons for master state
+            client.println("<p>Pack Enable</p>");
+            // If master state is off, it displays the ON button       
+            if (pack_enable_state=="off") {
               client.println("<p><a href=\"/5/on\"><button class=\"button\">ON</button></a></p>");
             } else {
               client.println("<p><a href=\"/5/off\"><button class=\"button button2\">OFF</button></a></p>");
             }
 
             // Display current state, and ON/OFF buttons for GPIO 4  
-            client.println("<p>GPIO 4 - State " + output4State + "</p>");
+            client.println("<p>Panel Enable</p>");
             // If the output4State is off, it displays the ON button       
-            if (output4State=="off") {
+            if (panel_enable_state=="off") {
               client.println("<p><a href=\"/4/on\"><button class=\"button\">ON</button></a></p>");
             } else {
               client.println("<p><a href=\"/4/off\"><button class=\"button button2\">OFF</button></a></p>");
