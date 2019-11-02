@@ -41,13 +41,16 @@ unsigned long previousTime = 0;
 // Define timeout time in milliseconds (example: 2000ms = 2s)
 const long timeoutTime = 2000;
 
-#line 41 "c:\\Users\\Jonathan\\Documents\\GitHub\\SolarWall\\Code\\V2 STM32 Nucleo & NodeMCU\\P1\\NodeMCU\\NodeMCU.ino"
+//Pack sensor values
+double cell_voltage[5] = {0.0};
+
+#line 44 "c:\\Users\\Jonathan\\Documents\\GitHub\\SolarWall\\Code\\V2 STM32 Nucleo & NodeMCU\\P1\\NodeMCU\\NodeMCU.ino"
 void setup();
-#line 76 "c:\\Users\\Jonathan\\Documents\\GitHub\\SolarWall\\Code\\V2 STM32 Nucleo & NodeMCU\\P1\\NodeMCU\\NodeMCU.ino"
+#line 79 "c:\\Users\\Jonathan\\Documents\\GitHub\\SolarWall\\Code\\V2 STM32 Nucleo & NodeMCU\\P1\\NodeMCU\\NodeMCU.ino"
 void loop();
-#line 185 "c:\\Users\\Jonathan\\Documents\\GitHub\\SolarWall\\Code\\V2 STM32 Nucleo & NodeMCU\\P1\\NodeMCU\\NodeMCU.ino"
+#line 188 "c:\\Users\\Jonathan\\Documents\\GitHub\\SolarWall\\Code\\V2 STM32 Nucleo & NodeMCU\\P1\\NodeMCU\\NodeMCU.ino"
 void pack_data_request();
-#line 41 "c:\\Users\\Jonathan\\Documents\\GitHub\\SolarWall\\Code\\V2 STM32 Nucleo & NodeMCU\\P1\\NodeMCU\\NodeMCU.ino"
+#line 44 "c:\\Users\\Jonathan\\Documents\\GitHub\\SolarWall\\Code\\V2 STM32 Nucleo & NodeMCU\\P1\\NodeMCU\\NodeMCU.ino"
 void setup() {
   // Initialize serial
   Serial.begin(115200);
@@ -197,11 +200,19 @@ void pack_data_request()
   //Polls I2C data
   Wire.requestFrom(1, 10);
 
-  byte pack_data[10] = {0};
-  Wire.readBytes(pack_data, 10);
+  //Read raw data
+  byte data_array[10] = {0};
+  int data_array_index = 0;
+  Wire.readBytes(data_array, 10);
+
+  //Retrieve cell voltages
+  //for (int i=0; i<5; i++)
+  //{
+  //  cell_voltage[i] = double()
+  //}
 
   for (int i=0; i<10; i++)
-    Serial.print(pack_data[i]);
+    Serial.print(data_array[i]);
   Serial.println();
 
   timer_I2C.attach(1, pack_data_request);

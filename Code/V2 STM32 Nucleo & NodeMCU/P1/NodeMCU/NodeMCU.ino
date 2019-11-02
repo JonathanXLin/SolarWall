@@ -196,10 +196,10 @@ void pack_data_request()
   Wire.readBytes(data_array, 10);
 
   //Retrieve cell voltages
-  for (int i=0; i<5; i++)
-  {
-    cell_voltage[i] = double()
-  }
+  //for (int i=0; i<5; i++)
+  //{
+  //  cell_voltage[i] = double()
+  //}
 
   for (int i=0; i<10; i++)
     Serial.print(data_array[i]);

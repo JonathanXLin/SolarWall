@@ -1,5 +1,6 @@
 {
-    "port": "COM5",
-    "board": "arduino:avr:uno",
-    "sketch": "arduino_I2C.ino"
+    "port": "COM4",
+    "board": "arduino:avr:nano",
+    "sketch": "arduino_I2C.ino",
+    "configuration": "cpu=atmega328"
 }

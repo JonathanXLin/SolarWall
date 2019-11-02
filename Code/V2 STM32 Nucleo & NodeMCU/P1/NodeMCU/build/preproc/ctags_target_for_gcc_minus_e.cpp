@@ -43,6 +43,9 @@ unsigned long previousTime = 0;
 // Define timeout time in milliseconds (example: 2000ms = 2s)
 const long timeoutTime = 2000;
 
+//Pack sensor values
+double cell_voltage[5] = {0.0};
+
 void setup() {
   // Initialize serial
   Serial.begin(115200);
@@ -168,7 +171,7 @@ void loop(){
             client.println("<p>Cell 5: " + String(cell_5_voltage, 3) + "V </p>");
 
             */
-# 161 "c:\\Users\\Jonathan\\Documents\\GitHub\\SolarWall\\Code\\V2 STM32 Nucleo & NodeMCU\\P1\\NodeMCU\\NodeMCU.ino"
+# 164 "c:\\Users\\Jonathan\\Documents\\GitHub\\SolarWall\\Code\\V2 STM32 Nucleo & NodeMCU\\P1\\NodeMCU\\NodeMCU.ino"
             client.println("</body></html>");
 
             // The HTTP response ends with another blank line
@@ -198,11 +201,19 @@ void pack_data_request()
   //Polls I2C data
   Wire.requestFrom(1, 10);
 
-  byte pack_data[10] = {0};
-  Wire.readBytes(pack_data, 10);
+  //Read raw data
+  byte data_array[10] = {0};
+  int data_array_index = 0;
+  Wire.readBytes(data_array, 10);
+
+  //Retrieve cell voltages
+  //for (int i=0; i<5; i++)
+  //{
+  //  cell_voltage[i] = double()
+  //}
 
   for (int i=0; i<10; i++)
-    Serial.print(pack_data[i]);
+    Serial.print(data_array[i]);
   Serial.println();
 
   timer_I2C.attach(1, pack_data_request);
