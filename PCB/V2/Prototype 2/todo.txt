@@ -1,2 +1,0 @@
-Master shutoff switch
-Gate LED
